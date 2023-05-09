@@ -3,10 +3,9 @@ body{
 }
 .navigation-container{
     display: flex;
-    padding: 50px 150px 0px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .navigation{
     width: 700px;
@@ -23,7 +22,7 @@ body{
 .nav-icon{
     height: 86px;
 }
-.nav-logp{
+.nav-logo{
     height: 49px;
 }
 .underline{
@@ -35,4 +34,23 @@ a{
 .header-p{
     text-align: center;
     color: white;
+}
+#burger{
+    display: none;
+}
+@media(max-width:1024px){
+    .nav-logo{
+        display: none;
+    }
+
+}
+@media(max-width:600px){
+    .navigation{
+        display: none;
+    }
+    #burger{
+        display: flex;
+        color: white;
+        font-size: 30px;
+    }
 }
