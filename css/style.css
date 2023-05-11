@@ -313,3 +313,35 @@ button{
     letter-spacing: 0.015em;
     text-align: center;
 }
+
+/* About Page */
+/* Navigation */
+.about-header{
+    background-image: url('../images/about.png');
+    background-size: cover;
+}
+
+
+/* Destination Page */
+/* Navigation */
+.destination-header{
+    background-image: url('../images/destination.jpg');
+    background-size: cover;   
+}
+
+
+/* Tips Page */
+/* Navigation */
+.tips-header{
+    background-image: url('../images/tips.png');
+    background-size: cover;   
+}
+
+/* Contacts Page */
+/* Navigation */
+.contacts-header{
+    background-image: url('../images/contact.jpg');
+    background-size: cover;   
+}
+
+
