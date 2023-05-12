@@ -361,6 +361,9 @@ button{
     flex-direction: column;
     align-items: center;
 }
+.section2-image{
+    width: 80%;
+}
 .about-section2>p{
     font-size: 18px;
     font-weight: 700;
@@ -409,6 +412,40 @@ button{
     color: var(--myFontColor);
 }
 
+.subscribtion{
+    width: 80%;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.015em;
+    column-gap: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+
+}
+.subscribtion-span{
+    color: #0336FF;
+}
+.subscribe-btn{
+    background-color: #0336FF;
+    color: white;
+    height: 78px;
+    width: 201px;
+    letter-spacing: 0.03em;
+}
+.subscribe-input{
+    height: 78px;
+    width: 330px;
+    border-radius: 8px;
+    border-radius: nullpx;
+    color: #C4C4C4;
+    border: 1px solid #C4C4C4;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
 
 /* Destination Page */
 /* Navigation */
@@ -416,6 +453,7 @@ button{
     background-image: url('../images/destination.jpg');
     background-size: cover;   
 }
+
 
 
 /* Tips Page */

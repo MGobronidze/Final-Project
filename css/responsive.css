@@ -76,8 +76,28 @@
         justify-content: space-between;
     }
     .description{
-        width: 100%;
+        width: 80%;
         margin-bottom: 20px;
+    }
+       /* responsive of about page */
+    .about-section1{
+        flex-direction: column;
+        width: 90%; 
+        margin-left: 10%;
+    }
+    .about-section1-header, .about-section1-paragraph{
+        width: 90%;
+    }
+    .subscribtion
+    {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-left: 10%;
+        height: 250px;
+    }
+    .subscribe-input{
+        margin-left: 0px;
     }
 
 }
@@ -112,6 +132,26 @@
         width: 60%;
         justify-content: space-between;
     }
+
+       /* responsive of about page */
+    .about-section3, .about-section4{
+        flex-direction: column;
+        width: 90%;
+        margin-left: 10%;
+    }
+    .about-section3-left, .about-section3-right, .about-section4-left, .about-section4-right{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .subscribe-input{
+        width: 80%;
+    }
+    .subscribe-btn{
+        width: 50%;
+    }
+    .subscribtion{
+        height: 300px;
+    }
 }
 @media(max-width:430px){
     .top-deals, .deals-image-properties{
@@ -131,8 +171,6 @@
         flex-direction: column;
         row-gap: 50px;
     }
-
-
 }
 @media(max-width:350px){
     .index-section1{
@@ -155,5 +193,9 @@
     }
     .index-section2-content{
         width: 80%;
+    }
+    /*responsive of about page */
+    .subscribtion{
+        height: 400px;
     }
 }
