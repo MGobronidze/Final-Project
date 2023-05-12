@@ -492,10 +492,14 @@ button{
     position: absolute;
     top: 150px;
     width: 300px;
+    height: 250px;
     background-color: white;
     box-shadow: 2px 2px 4px #888888;
     padding: 20px;
     opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .card-content>p{
     font-size: 18px;
@@ -533,21 +537,41 @@ button{
 }
 
 /* south america section in destination page */
-.south-america{
+.south-america
+{
     margin-top: 5%;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 /* north america section in destination page */
-.north-america{
+.north-america
+{
     margin-top: 5%;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 /* europe section in destination page */
-.europe{
+.europe
+{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* africa section in destination page */
+.africa
+{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+/* asia section in destination page */
+.asia
+{
     margin-top: 5%;
     width: 100%;
     display: flex;
