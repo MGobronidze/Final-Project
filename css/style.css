@@ -423,7 +423,7 @@ button{
     align-items: center;
     justify-content: center;
     margin-left: 5%;
-
+    color: var(--myFontColor);
 }
 .subscribtion-span{
     color: #0336FF;
@@ -452,6 +452,30 @@ button{
 .destination-header{
     background-image: url('../images/destination.jpg');
     background-size: cover;   
+}
+.destination-section2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.destination-btn-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.destination-btn{
+    height: 88px;
+    width: 15%;
+    border-radius: 0px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    color: var(--myFontColor);
+}
+
+.destination-btn:hover{
+    background-color: #0336FF;
 }
 
 

@@ -52,7 +52,7 @@
     .travel-links{
         margin-bottom: 20px;
     }
-    
+
 }
 @media(max-width:830px){
     .second{
@@ -100,6 +100,8 @@
         margin-left: 0px;
     }
 
+        /* destination page */
+    
 }
 @media(max-width:600px){
     .navigation{
