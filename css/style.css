@@ -476,8 +476,83 @@ button{
 
 .destination-btn:hover{
     background-color: #0336FF;
+    color: white;
 }
 
+.destination-card{
+    height: 465px;
+    width: 25%;
+    position: relative;
+}
+.destination-card>img{
+    width: 383px;
+    height: 230px;
+}
+.card-content{
+    position: absolute;
+    top: 150px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 2px 2px 4px #888888;
+    padding: 20px;
+    opacity: 0.8;
+}
+.card-content>p{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #FFA500;
+    margin-bottom: 5px;
+}
+.card-content>h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin-bottom: 5px;
+
+}
+.card-icons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.card-location{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+.card-comment{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    
+}
+.comment-icon, .location-icon{
+    color: #ECA00D;
+}
+
+/* south america section in destination page */
+.south-america{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+/* north america section in destination page */
+.north-america{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+/* europe section in destination page */
+.europe{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 
 
 /* Tips Page */
