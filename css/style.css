@@ -12,16 +12,20 @@ body{
     justify-content: space-around;
 }
 .navigation{
+    height: 100px;
     width: 700px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
+.active{
+    font-size: 27px;
+    font-weight: 900;
+}
 .index-header{
     background-image: url('../images/banner.png');
     width: 100%;
-    height:800px;
+    height: 700px;
 }
 .nav-icon{
     height: 86px;
@@ -35,12 +39,12 @@ body{
 a{
     color: white;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 14px;
     font-weight: 500;
 }
 .nav-a:hover{
-    font-size: 20px;
+    font-size: 27px;
 }
 .header-paragraph{
     text-align: center;
@@ -523,17 +527,16 @@ button{
 }
 .card-location{
     display: flex;
-    width: 25%;
     justify-content: space-between;
 }
 .card-comment{
     display: flex;
-    width: 50%;
     justify-content: space-between;
     
 }
 .comment-icon, .location-icon{
     color: #ECA00D;
+    margin-right: 5px;
 }
 
 /* south america section in destination page */
