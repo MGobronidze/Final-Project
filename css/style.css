@@ -477,7 +477,9 @@ button{
     letter-spacing: 0.02em;
     color: var(--myFontColor);
 }
-
+.display-short{
+    display: none;
+}
 .destination-btn:hover{
     background-color: #0336FF;
     color: white;
