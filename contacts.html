@@ -49,20 +49,21 @@
     </header>
     <main class="cotacts-main">
         <section class="contacts-form">
-            <p class="contacts-paragraph">PLEASE, FEEL YOURSELF COMFORTABLE TO FILL IN OUR CONTACT FORM</p>
-            <form action="">
-                <div>
-                    <input type="text" name="name" placeholder="Name">
-                    <input type="text" name="last-name" placeholder="Last name">
-                </div>
-                <div>
-                    <input type="text" name="email" placeholder="Email">
-                    <input type="text" name="subject" placeholder="Subject">
-                </div>
-                <div>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-            </form>
+                <p class="contacts-paragraph">PLEASE, FEEL YOURSELF COMFORTABLE TO FILL IN OUR CONTACT FORM</p>
+                <form action="" class="form-container" id="contacts-form">
+                    <div class="input-personal-info">
+                        <input type="text" name="name" placeholder="Name" class="contacts-input left">
+                        <input type="text" name="last-name" placeholder="Last name" class="contacts-input">
+                    </div>
+                    <div class="input-email">
+                        <input type="text" name="email" placeholder="Email" class="contacts-input left">
+                        <input type="text" name="subject" placeholder="Subject" class="contacts-input">
+                    </div>
+                    <div>
+                        <textarea name="" id="" cols="30" rows="10">Message</textarea>
+                    </div>
+                </form>
+        
         </section>
         <div class="line"></div>
         <section class="subscribtion">

@@ -123,7 +123,17 @@
         align-items: center;
         border-radius: 30px;
     }
-
+    /* contacts page */
+    .input-personal-info, .input-email{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts-input{
+        width: 85%;
+    }
+    .contacts-form{
+        margin-left: 20%;
+    }
 }
 @media(max-width:600px){
     .navigation{
@@ -233,7 +243,18 @@
     .south-america{
         justify-content: center;
     }
+    /* contacts  page*/
+    .contacts-input{
+        width: 200px;
+    }
+    textarea{
+        width: 200px;
+    }
+    .contacts-form{
+        margin-left: 10%;
+    }
 }
+
 
 @media(max-width:350px){
     .index-section1{
