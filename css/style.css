@@ -596,6 +596,9 @@ button{
     background-image: url('../images/tips.png');
     background-size: cover;   
 }
+.read-more{
+    cursor: pointer;
+}
 
 /* Contacts Page */
 /* Navigation */
