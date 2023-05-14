@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @font-face {
     font-family: 'Inter';
     src: url('../fonts/Inter-Regular.eot');
@@ -10,4 +17,3 @@
     font-style: normal;
     font-display: swap;
 }
-
