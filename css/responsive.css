@@ -190,13 +190,24 @@
     .navigation{
         display: none;
     }
-    #burger{
-        display: -webkit-box;
-        display: -ms-flexbox;
+    .burger{
         display: flex;
-        color: white;
-        font-size: 30px;
+        flex-direction: column;
+        height: 30px;
+        cursor: pointer;
+        justify-content: space-between;
     }
+    .top, .middle, .bottom{
+        width: 50px;
+        height: 3px;
+        background-color: white;
+        border-radius: 15%;
+        transition: all 0.2s;
+    }
+    .middle{
+        width: 40px;
+    }
+
     .header-paragraph :nth-child(1){
         font-size: 45px;
         font-weight: 700;
@@ -377,4 +388,37 @@
     .subscribtion{
         height: 400px;
     }
+}
+
+/* listen to events */
+.display-nav{
+    display: none;
+}
+.enable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 200px;
+    width: 90%;
+}
+.disable{
+    display: none;
+}
+.set-height{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(38, 36, 36);
+    opacity: 0.8;
+    
+}
+.displayTop{
+    transform: rotate(45deg) translate(20px,18px);
+    
+}
+.displayBottom{
+    transform: rotate(135deg);
 }

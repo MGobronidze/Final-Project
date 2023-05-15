@@ -13,6 +13,7 @@ body{
 }
 /* styling navigation */
 .navigation-container{
+
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -24,6 +25,7 @@ body{
         justify-content: space-around;
 }
 .navigation{
+    transition: all 2s;
     height: 100px;
     width: 700px;
     display: -webkit-box;
@@ -67,7 +69,7 @@ a{
     text-align: center;
     color: white;
 }
-#burger{
+.burger{
     display: none;
 }
 
