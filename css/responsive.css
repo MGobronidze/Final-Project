@@ -342,6 +342,7 @@
                 justify-content: center;
     }
     /* contacts  page*/
+    
     .contacts-input{
         width: 200px;
     }
@@ -421,4 +422,12 @@
 }
 .displayBottom{
     transform: rotate(135deg);
+}
+/* destination page btns */
+.display{
+    display: flex;
+}
+.backgroundBlue{
+    background-color: #0336FF;
+    color: white;
 }
