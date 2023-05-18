@@ -39,12 +39,6 @@ function addUserInfo(){
     clientsExperienceWrapperEl.appendChild(imgEl);
     clientsExperienceWrapperEl.appendChild(fullNameEl);
 
-
-    // create comment section  
-    let commentEl =document.createElement('p');
-    commentEl.classList.add('user-comment');
-    commentEl.textContent = 'If you’re twenty-two, physically fit, hungry to learn and be better, I urge you to travel – as far and as widely as possible. Sleep on floors if you have to';
-    clientsExperienceWrapperEl.appendChild(commentEl);
     infoLength = resposeDataJs.data.length;
 })
 .catch(function(error){

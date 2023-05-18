@@ -13,6 +13,10 @@ let europeEl =document.querySelector('.europe');
 let africaEl =document.querySelector('.africa');
 let asiaEl = document.querySelector('.asia');
 
+// display defaunlt
+europeEl.classList.add('display');
+europeBtnEl.classList.add('backgroundBlue');
+
 
 // add functionality to the south ametica btn
 southAmericaBtnEl.addEventListener('click', function(){
