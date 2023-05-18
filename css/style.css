@@ -299,7 +299,28 @@ a{
 .flex-container3{
     width: 981px;
 }
-
+.clients-experience>h2, .error-message{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.error-message{
+    color:#ECA00D;
+}
+.clients-experience-container{
+    width: 90%;
+    margin-left: 5%;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-circle-chevron-left, .fa-circle-chevron-right{
+    font-size: 35px;
+    cursor: pointer;
+}
 /* styling footer */
 footer{
     margin-top: 120px;
