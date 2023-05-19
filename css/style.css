@@ -309,17 +309,18 @@ a{
 .error-message{
     color:#ECA00D;
 }
+.clients-experience-wrapper-parent{
+    display: flex;
+    justify-content: space-between;
+}
 .clients-experience-container{
     margin-top: 5%;
-    width: 90%;
-    margin-left: 5%;
+    width: 80%;
+    margin-left: 10%;
     height: 360px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.clients-experience-wrapper{
-    width: 30%;
 }   
 .user-comment{
     font-size: 28px;
@@ -327,9 +328,9 @@ a{
     line-height: 40px;
     letter-spacing: 0.015em;
     text-align: left;
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .user-fullname{
     font-size: 28px;
@@ -337,11 +338,13 @@ a{
     line-height: 40px;
     letter-spacing: 0.015em;
     text-align: left;
-    margin-left: 5%;
+    margin-left: 10%;
+    width: 240px;
+    margin-bottom: 5%;
 }
 .user-image{
-    height: 250px;
-    margin-left: 5%;
+    height: 200px;
+    margin-left: 10%;
     margin-bottom: 5%;
 }
 .fa-circle-chevron-left, .fa-circle-chevron-right{

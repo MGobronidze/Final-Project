@@ -39,6 +39,9 @@ function addUserInfo(){
     clientsExperienceWrapperEl.appendChild(imgEl);
     clientsExperienceWrapperEl.appendChild(fullNameEl);
 
+    let commentEl = document.querySelector('.user-comment');
+    commentEl.textContent = 'If you’re twenty-two, physically fit, hungry to learn and be better, I urge you to travel – as far and as widely as possible. Sleep on floors if you have to'
+
     infoLength = resposeDataJs.data.length;
 })
 .catch(function(error){
@@ -51,22 +54,29 @@ function addUserInfo(){
 addUserInfo();
 
 // adding functionality to the left and right arrows;
-arrowLeftEl.addEventListener('click', function(){
+function arrowLeftClick(){
     if(indexCount == 0){
-        return
+        indexCount = infoLength-1;
+        clientsExperienceWrapperEl.textContent =' ';
+        addUserInfo();
     }else{
         indexCount--;
         clientsExperienceWrapperEl.textContent =' ';
         addUserInfo()
     }   
-})
+}
 
-arrowRightEl.addEventListener('click', function(){
+function arrowRightClick(){
     if(indexCount == infoLength-1){
-        return
+        indexCount =0;
+        clientsExperienceWrapperEl.textContent =' ';
+        addUserInfo();
     }else{
         indexCount++;
         clientsExperienceWrapperEl.textContent =' ';
         addUserInfo()
     }
-})
+}
+
+arrowLeftEl.addEventListener('click', arrowLeftClick)
+arrowRightEl.addEventListener('click', arrowRightClick)

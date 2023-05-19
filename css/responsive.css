@@ -69,6 +69,21 @@
     .travel-links{
         margin-bottom: 20px;
     }
+    .clients-experience-wrapper-parent{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+    .user-comment{
+        margin-left: 2%;
+    }
+    .clients-experience-container{
+        height: auto;
+    }
+    .user-comment{
+        width: 100%;
+    }
 
 }
 @media(max-width:830px){
@@ -106,6 +121,7 @@
         width: 80%;
         margin-bottom: 20px;
     }
+
        /* responsive of about page */
     .about-section1{
         -webkit-box-orient: vertical;
@@ -352,6 +368,9 @@
     .contacts-form{
         margin-left: 10%;
     }
+    .user-image{
+        height: 150px;
+    }
 }
 
 
@@ -388,6 +407,13 @@
     /*responsive of about page */
     .subscribtion{
         height: 400px;
+    }
+    .fa-circle-chevron-right, .fa-circle-chevron-left{
+        font-size: 24px;
+    }
+    .clients-experience>h2
+    {
+        margin-left: 10%;
     }
 }
 
