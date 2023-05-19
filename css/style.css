@@ -821,15 +821,6 @@ button{
     margin-top: 150px;
     margin-bottom: 50px;
 }
-/* Tips Page */
-/* Navigation */
-.tips-header{
-    background-image: url('../images/tips.png');
-    background-size: cover;   
-}
-.read-more{
-    cursor: pointer;
-}
 
 /* Contacts Page */
 /* Navigation */

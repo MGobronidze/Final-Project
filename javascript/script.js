@@ -21,3 +21,5 @@ burgerEl.addEventListener('click', function(){
     middleElement.classList.toggle('disable')
     bottomElement.classList.toggle('displayBottom')
 })
+
+// validation to the submit form

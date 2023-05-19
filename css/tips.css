@@ -1,0 +1,81 @@
+/* Tips Page */
+/* Navigation */
+.tips-header{
+    background-image: url('../images/tips.png');
+    background-size: cover;   
+}
+.tips-section1{
+    width: 100%;
+    display: flex;
+}
+.tips-container{
+    width: 100%;
+}
+.tips-section1-header{
+    margin: 10%;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: -0.02em;
+    color: var(--myFontColor);
+    width: 50%;
+    height: 200px;
+    padding: 5%;
+    background-image: url('../images/about-background.png');
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+}
+.tips-span{
+    color: #FFA500;
+}
+.tips-section1-paragraph{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: var(--myFontColor);
+    width: 80%;
+    
+}
+.first{
+    margin-top: 10%;
+}
+
+.read-more, .show-less{
+    cursor: pointer;
+}
+.tips-paragraph-hide{
+    display: none;
+}
+.tips-paragraph-show{
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width:900px){
+    .tips-section1{
+        display: flex;
+        flex-direction: column;
+    }
+    .tips-section1-header{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .tips-container{
+        margin-left: 10%;
+        margin-bottom: 10%;
+        width: 90%;
+    }
+    .tips-section1-paragraph{
+        width: 100%;
+    }
+}
