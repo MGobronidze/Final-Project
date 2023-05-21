@@ -23,3 +23,47 @@ burgerEl.addEventListener('click', function(){
 })
 
 // validation to the submit form
+
+let footerFormEl = document.getElementById('footer-form');
+
+footerFormEl.addEventListener('submit', function(e){
+    e.preventDefault()
+    let nameRegex = /^[a-zA-Zა-ჰ]+(([',. -][a-zA-Zა-ჰ ])?[a-zA-Z ა-ჰ]*)*$/;
+
+    let footerfirstNameField = document.getElementById('footer-first-name');
+    let footerfirstNameFieldValue= footerfirstNameField.value;
+    
+    if(footerfirstNameFieldValue.match(nameRegex)){
+        footerfirstNameField.style.border='2px solid green'
+    }else{
+        footerfirstNameField.style.border='2px solid red'
+        alert('Enter valid First Name!');
+        return
+    }
+
+
+    let footerLatsNameField = document.getElementById('footer-last-name')
+    let footerLatsNameValue = footerLatsNameField.value;
+   
+    if(footerLatsNameValue.match(nameRegex)){
+        footerLatsNameField.style.border='2px solid green'
+    }else{
+        footerLatsNameField.style.border='2px solid red'
+        alert('Enter valid Last Name!');
+        return
+    }
+
+
+    let emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+    let footerEmailField = document.getElementById('footer-email');
+    let footerEmailValue = footerEmailField.value;
+    if(footerEmailValue.match(emailRegex)){
+        footerEmailField.style.border='2px solid green'
+    }else{
+        footerEmailField.style.border='2px solid red'
+        alert('Enter valid Email Adress!');
+        return
+    }
+
+})
+
