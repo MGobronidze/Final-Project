@@ -5,6 +5,7 @@
 .contacts-header{
     background-image: url('../images/contact.jpg');
     background-size: cover;   
+    background-position: center top;
 }
 .contacts-form{
     width: 50%;

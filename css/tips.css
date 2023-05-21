@@ -3,6 +3,7 @@
 .tips-header{
     background-image: url('../images/tips.png');
     background-size: cover;   
+    background-position: center top;
 }
 .tips-section1{
     width: 100%;
