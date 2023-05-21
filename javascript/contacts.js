@@ -50,14 +50,13 @@ formEl.addEventListener('submit', function(e){
     let subjectField = document.getElementById('subject');
     // subject field validation logic
     if(subjectValue.length==0){
-         errorTextSubject.innerText='Please, enter the subject!';
+        errorTextSubject.innerText='Please, enter the subject!';
         errorTextSubject.style.color='red';
         subjectField.style.border =' 2px solid red'
         
     }else{
         subjectField.style.border='2px solid green';
-       
-
+        errorTextSubject.textContent=" ";
     }
 
     // message element
