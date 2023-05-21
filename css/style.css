@@ -607,6 +607,9 @@ button{
     margin-left: 5%;
     color: var(--myFontColor);
 }
+.subscribtion>p{
+    margin-right: 50px;
+}
 .subscribtion-span{
     color: #0336FF;
 }
@@ -625,8 +628,8 @@ button{
     color: #C4C4C4;
     border: 1px solid #C4C4C4;
     margin-bottom: 0px;
-    margin-left: 50px;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 /* Destination Page */
