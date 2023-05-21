@@ -7,6 +7,7 @@
     <title>Contacts</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacts.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="icon" href="images/snow-capped-mountain.svg">
@@ -51,17 +52,30 @@
                 <p>Contact Us</p>
         </div>
     </header>
+
     <main class="cotacts-main">
         <section class="contacts-form">
                 <p class="contacts-paragraph">PLEASE, FEEL YOURSELF COMFORTABLE TO FILL IN OUR CONTACT FORM</p>
                 <form action="" class="form-container" id="contacts-form">
                     <div class="input-personal-info">
-                        <input type="text" name="name" placeholder="Name" class="contacts-input left">
-                        <input type="text" name="last-name" placeholder="Last name" class="contacts-input">
+                        <div class="user-first-name">
+                            <input type="text" name="name" placeholder="Name" class="contacts-input left">
+                            <p class="error-text" id="error-name"></p>
+                        </div>
+                        <div class="user-last-name">
+                            <input type="text" name="last-name" placeholder="Last name" class="contacts-input">
+                            <pclass="error-text" id="error-last-name"></pclass=>
+                        </div>
                     </div>
                     <div class="input-email">
-                        <input type="text" name="email" placeholder="Email" class="contacts-input left">
-                        <input type="text" name="subject" placeholder="Subject" class="contacts-input">
+                        <div class="user-email">
+                            <input type="text" name="email" placeholder="Email" class="contacts-input left">
+                            <p class="error-text" id="error-email"></p>
+                        </div>
+                        <div class="user-subject">
+                            <input type="text" name="subject" placeholder="Subject" class="contacts-input">
+                            <p class="error-text" id="error-subject"></p>
+                        </div>
                     </div>
                     <div>
                         <textarea name="Message" id="message" cols="30" rows="10">Message</textarea>
@@ -77,6 +91,7 @@
             <button class="subscribe-btn">Subscribe</button>
         </section>
     </main>
+
 <footer>
     <div class="footer-info">
         <div class="description"> 
@@ -91,7 +106,7 @@
                     <li><a href="index.html" class="footer-a">Tavel</a></li>
                     <li><a href="about.html" class="footer-a">About Us</a></li>
                     <li><a href="destination.html" class="footer-a">Destination</a></li>
-                    <li><a href="tips.html" class="footer-a">How Its Works</a></li>
+                    <li><a href="tips.html" class="footer-a">How It Works</a></li>
                     <li><a href="contacts.html" class="footer-a">Contacts</a></li>
                 </ul>
             </div>
@@ -121,5 +136,6 @@
 
 
 <script src="javascript/script.js"></script>
+<script src="javascript/contacts.js"></script>
 </body>
 </html>
